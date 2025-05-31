@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+         
+           
+        }
+        a{ 
+            color: red;
+           text-decoration: none;
+           font-weight: bold;
+        }
+        a:visited{
+            color: rgba(103, 29, 20, 0.597);
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        
+        a:active{
+            color: yellow;
+        }
+        .especial{
+            background-color: brown;
+            color: aliceblue;
+        }
+
+        .especial::before{
+            content: '⇛';
+        }
+
+        .especial::after{
+            content: '⇚';
+        }
+        div{
+            background-color:yellow ;
+            width: 350px;
+            height: 200px;
+            margin: auto;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/Rickles05" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/@ricklesalves7855" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.instagram.com/alves_rickles/">Meu Instagran</a></li>
+    </ul>
+    </div>
+    
+</body>
+</html>

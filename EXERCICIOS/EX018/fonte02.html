@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+       @font-face {
+        font-family:'baker';
+        src: url('fontes/baker.ttf') format('truetype') url('fontes/baker.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+       }
+            /* Tipos de format
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced typography)
+            - svg
+            */
+     
+        body{
+            font-family: 'bakar', Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'baker', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat repellendus nesciunt, dolore illo similique praesentium! Labore dolor, laborum sunt voluptatibus accusantium tempore, totam accusamus similique modi quibusdam mollitia nostrum laboriosam.</p>
+    
+</body>
+</html>
