@@ -11,6 +11,7 @@
 
         table{
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
         }
         tr{
@@ -19,13 +20,14 @@
         td{
             border: 1px solid black;
             padding: 8px;
+            text-align: center; /*Alinhamento Horizontal */
+            vertical-align: middle; /*Alinhamento Vertical */
         }
-        tr.linha{
-            background-color: rgb(0, 255, 64);
+
+        .numero{
+            text-align: right;
         }
-        td.b2{
-            background-color: rgb(238, 255, 0);
-        }
+
     </style>
 </head>
 <body>
@@ -34,14 +36,14 @@
         <tr> <!-- Primeira linha -->
            <td>A1</td>
            <td>B1</td>
-           <td>C1</td>
+           <td class="numero">C1</td>
         </tr>
         <tr> <!-- Segunda linha -->
             <td>A2</td>
-            <td class="b2">B2</td>
-            <td>C2</td>
+            <td>B2</td>
+            <td class="numero">C2</td>
         </tr>
-        <tr class="linha"> <!-- Terceira linha -->
+        <tr> <!-- Terceira linha -->
             <td>A3</td>
             <td>B3</td>
             <td>C3</td>
